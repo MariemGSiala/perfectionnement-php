@@ -25,7 +25,7 @@ class Ecole
    }
 
    public function getAdresse(){
-    return $this->age;
+    return $this->adresse;
    }
 
    public function getTel(){
@@ -60,7 +60,7 @@ $tab=array($e1,$e2,$e3);
 //var_dump($tab);
 foreach($tab as $e)
 {
-    echo $e->getInfoEcole()."</br>";
+    echo $e->getInfoEcole();
 }
 
 //echo $e1->getInfoEcole();
